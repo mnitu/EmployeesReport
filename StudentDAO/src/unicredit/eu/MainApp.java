@@ -20,6 +20,8 @@ public class MainApp {
 		System.out.println("Delete Student : \n");
 		studDAO.deleteStudent(upStud);
 		printStudents(studDAO.getAllStudents());
+		
+		System.out.println("Github test 20.05.2016");
 	}
 	
 	public static void printStudents(List<Student> students) {
